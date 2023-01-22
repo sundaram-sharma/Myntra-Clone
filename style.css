@@ -9,33 +9,27 @@ html, body {
 }
 header{
   position: sticky;
+  z-index: 10;
   top: 0;
   background: white;
   height: 66px;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
-@media (max-width: 150px){
-  header{
-    height: 122px;
-  }
 
-  nav{
-    flex-direction: column;
-    align-items: center;
-  }
-  .right{
-    flex-direction: column;
-  }
-}
 
-.left img{
-  width: 32px;
-  height: 23px;
+
+.left img {
+    width: 32px;
+    height: 33px;
 }
 
 .container{
-    padding: 3px 1vw;
+    padding: 0px 4vw;
+}
+
+.containerHeader{
+    padding: 0 10vw; 
 }
 
 nav{
@@ -64,7 +58,8 @@ nav ul li{
   
 }
 .itemImg{
-    width: 12vw;
+    padding: 4px;
+    width: 11vw;
     margin: 0vw 0vw;
   
 }
@@ -72,6 +67,7 @@ nav ul li{
 .footer{
   padding: 23px;
   text-align: center;
+  background: #FAFBFC;
   box-shadow: rgba(0, 0, 0, 0/24%) 0px 3px 8px;
 }
 
@@ -83,4 +79,83 @@ nav ul li{
     margin: 50px 0 10px 30px;
     max-height: 5em;
     font-weight: 700;
+}
+
+  .rightBox{
+    display: flex;
+    margin: 12px;
+  }
+
+@media (max-width: 1550px){
+
+.itemImg{
+    padding: 4px;
+    width: 30vw;
+    margin: 0vw 0vw;
+  
+}
+  
+  header{
+    position: sticky;
+    height: 122px;
+  }
+
+  nav ul li{
+  list-style: none;
+  padding: 0 4px;
+  font-size: 10px;
+}
+
+.containerHeader{
+  padding: 0 2vw;
+}  
+
+  nav{
+    flex-direction: column;
+    align-items: center;
+  }
+  .right{
+    flex-direction: column;
+  }
+  .rightBox{
+    display: flex;
+    margin: 12px;
+  }
+}
+
+@media (max-width: 390px){
+
+  .itemImg{
+    padding: 4px;
+    width: 45vw;
+    margin: 0vw 0vw;
+  
+}
+  
+  header{
+    position: sticky;
+    height: 122px;
+  }
+
+  nav ul li{
+  list-style: none;
+  padding: 0 4px;
+  font-size: 10px;
+}
+
+.containerHeader{
+  padding: 0 2vw;
+}  
+
+  nav{
+    flex-direction: column;
+    align-items: center;
+  }
+  .right{
+    flex-direction: column;
+  }
+  .rightBox{
+    display: flex;
+    margin: 12px;
+  }
 }
