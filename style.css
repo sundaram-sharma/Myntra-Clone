@@ -25,7 +25,7 @@ header{
 }
 
 .container{
-    padding: 0px 4vw;
+    padding: 0px 0vw;
 }
 
 .containerHeader{
@@ -59,7 +59,7 @@ nav ul li{
 }
 .itemImg{
     padding: 4px;
-    width: 11vw;
+    width: 12.3vw;
     margin: 0vw 0vw;
   
 }
@@ -90,7 +90,7 @@ nav ul li{
 
 .itemImg{
     padding: 4px;
-    width: 30vw;
+    width: 33.3vw;
     margin: 0vw 0vw;
   
 }
@@ -127,7 +127,7 @@ nav ul li{
 
   .itemImg{
     padding: 4px;
-    width: 45vw;
+    width: 50vw;
     margin: 0vw 0vw;
   
 }
